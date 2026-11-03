@@ -1,0 +1,4 @@
+# Working Notes
+An editorial development notebook. The site contains one essay and two clearly marked outlines. It is a static site, not an API or a hosted execution service.
+- [Notebook](https://aditya2375.github.io/working-notes/)
+- [Source](https://github.com/Aditya2375/working-notes)
