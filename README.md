@@ -20,3 +20,5 @@ The remote-post experiment is not active: the notebook uses the checked-in
 `src/posts.js` content. Outlines stay marked as unpublished. There is no login,
 private storage, payment flow or hosted backend. GitHub Pages controls response
 headers; the page adds a meta CSP but cannot add framing protection headers.
+
+To repeat browser QA: `npm ci && npm run build`, start `npm run preview`, then run `npm test` in another terminal. Set `CHROME_PATH` if Chrome is not at `/usr/bin/google-chrome`.
