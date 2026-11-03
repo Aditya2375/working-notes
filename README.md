@@ -9,3 +9,14 @@ Live: https://aditya2375.github.io/working-notes/
 
 ## Edit
 Articles and preview outlines live in `src/posts.js`. The first essay is published; the other entries are outlines on the desk.
+
+## Deployment and checks
+
+Build with `npm ci && npm run build -- --base=/working-notes/`. The `gh-pages`
+branch serves the resulting static files at the live link above. Fonts are
+self-hosted; the notebook makes no API call and stores no reader data.
+
+The remote-post experiment is not active: the notebook uses the checked-in
+`src/posts.js` content. Outlines stay marked as unpublished. There is no login,
+private storage, payment flow or hosted backend. GitHub Pages controls response
+headers; the page adds a meta CSP but cannot add framing protection headers.
