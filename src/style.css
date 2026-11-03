@@ -4,3 +4,5 @@
 
 /* notebook live indicator */
 .wn-live{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.14em;opacity:.55}
+
+.skip-link{position:fixed;top:8px;left:8px;z-index:50;padding:12px;background:#233729;color:#fff;transform:translateY(-150%)}.skip-link:focus{transform:none}.essay-text,.about-body>div{min-width:0}html{scroll-padding-top:20px}
